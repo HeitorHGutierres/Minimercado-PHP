@@ -1,0 +1,14 @@
+<?php
+include("../config.inc.php");
+include(constant("SITE_ROOT")."/admin/config.inc.php");
+include(constant("SITE_ROOT")."/admin/funcao.php");
+validaSessao();
+include(constant("SITE_ROOT")."/header.php");
+?>
+<h1>ADMIN</h1>
+<?php
+	include(constant("SITE_ROOT")."/admin/menu.php");
+?>
+<?php 
+	include(constant("SITE_ROOT")."/footer.php"); 
+?>
